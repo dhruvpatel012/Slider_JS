@@ -1,4 +1,4 @@
-# Image Slider — Vanilla JS
+# Image Slider - Vanilla JS
 
 A simple image slider made with plain HTML, CSS & JavaScript. No libraries.
 
