@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla JS Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="page-title">📍 Explore The World</h1>
+
+    <!-- ------ main slider wrapper ------ -->
+    <div class="slider-container" id="sliderContainer">
+      <div class="slides-track" id="slidesTrack">
+        <!-- slides get created dynamically by script.js -->
+      </div>
+
+      <!-- ------ previous button ------ -->
+      <button class="nav-btn prev-btn" id="prevBtn">
+        &#10094;
+      </button>
+
+      <!-- ------ next button ------ -->
+      <button class="nav-btn next-btn" id="nextBtn">
+        &#10095;
+      </button>
+
+      <!-- ------ slide counter ------ -->
+      <div class="slide-counter" id="slideCounter">1 / 5</div>
+
+      <!-- ------ dot indicators ------ -->
+      <div class="dots-container" id="dotsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
